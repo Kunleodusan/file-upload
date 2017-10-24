@@ -1,0 +1,13 @@
+{
+    "name": "file-api/kunle",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Kunleodusan",
+            "email": "odusanayokunle@gmail.com"
+        }
+    ]
+}

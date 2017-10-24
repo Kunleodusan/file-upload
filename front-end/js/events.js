@@ -3,7 +3,7 @@
  */
 define(['./preview','./model'],function (previewService,model) {
 
-    var url='http://api.vc4a.kunleodusan.com';
+    var url='http://vc4a.kunleodusan.com/api/public';
     //delete action
     function deleteFile(id) {
             model.deleteItem(id);
