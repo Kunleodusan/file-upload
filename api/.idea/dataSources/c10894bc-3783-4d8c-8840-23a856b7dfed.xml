@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="vc4a@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="vc4a">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="careerLounge"/>
+    <schema id="4" parent="1" name="careerLounge_api"/>
+    <schema id="5" parent="1" name="charme_api"/>
+    <schema id="6" parent="1" name="codevault"/>
+    <schema id="7" parent="1" name="docflow"/>
+    <schema id="8" parent="1" name="easycash"/>
+    <schema id="9" parent="1" name="ExSDP"/>
+    <schema id="10" parent="1" name="hospital_search"/>
+    <schema id="11" parent="1" name="information_schema"/>
+    <schema id="12" parent="1" name="kunleodusan"/>
+    <schema id="13" parent="1" name="manfromthewest"/>
+    <schema id="14" parent="1" name="mfp"/>
+    <schema id="15" parent="1" name="mfp2"/>
+    <schema id="16" parent="1" name="muna_pp"/>
+    <schema id="17" parent="1" name="mysql"/>
+    <schema id="18" parent="1" name="notifyme"/>
+    <schema id="19" parent="1" name="performance_schema"/>
+    <schema id="20" parent="1" name="ponzi"/>
+    <schema id="21" parent="1" name="quickcash"/>
+    <schema id="22" parent="1" name="sips_api"/>
+    <schema id="23" parent="1" name="smartapp"/>
+    <schema id="24" parent="1" name="smartapp_api"/>
+    <schema id="25" parent="1" name="snowafrica"/>
+    <schema id="26" parent="1" name="sudabelt_api"/>
+    <schema id="27" parent="1" name="sys"/>
+    <schema id="28" parent="1" name="talenthail"/>
+    <schema id="29" parent="1" name="techpoint_list"/>
+    <schema id="30" parent="1" name="tt"/>
+    <schema id="31" parent="1" name="weblocks"/>
+    <schema id="32" parent="1" name="weblocks2"/>
+    <table id="33" parent="2" name="documents"/>
+    <column id="34" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>int(6) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="35" parent="33" name="item_id">
+      <Position>2</Position>
+      <DataType>int(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="33" name="item_type">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="33" name="filename">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="33" name="datestamp">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="39" parent="33" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

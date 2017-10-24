@@ -1,0 +1,22 @@
+{
+  "name": "front-end",
+  "homepage": "https://github.com/Kunleodusan/file-upload",
+  "authors": [
+    "Kunleodusan <odusanayokunle@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.3.5",
+    "jquery": "^3.2.1"
+  }
+}

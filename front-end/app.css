@@ -1,0 +1,17 @@
+.preview{
+    width: 76px;
+    display: inline-block;
+    margin: 5px 20px;
+    vertical-align: top;
+}
+.preview img{
+    width: 70px;
+}
+#uploadDiv{
+    min-height: 15em;
+    margin: 1em;
+    padding: 1.5em;
+}
+.underline{
+    text-decoration: underline;
+}
